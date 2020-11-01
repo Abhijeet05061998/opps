@@ -26,9 +26,15 @@ It is a basic unit of Object Oriented Programming and represents the real-life e
 Objects having memory addresses and take up some space. They can interact with each other without knowing data and code.
 
 An object consists of :
-State : It is represented by attributes of an object. It also reflects the properties of an object.
-Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
-Identity : It gives a unique name to an object and enables one object to interact with other objects.
+State
+-----
+It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior
+--------
+: It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity
+--------
+: It gives a unique name to an object and enables one object to interact with other objects.
 
 
 
