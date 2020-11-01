@@ -14,4 +14,15 @@ features of oops
 4.encapsulation
 5.Abstaraction
 
+CLASS
+-----
+class is a user define data type which hold the data member of object and also functionality of object(also called method)
+class cantain data member of diffrent diffrent data type
+
+OBJECT
+------
+object is instance of class
+
+
+
 
