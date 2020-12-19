@@ -1,35 +1,32 @@
 #include<bits/stdc++.h>
 using namespace std;
-//base class
-class parent
-{
+
+
+class Employee{
 protected:
-	int emp_id;
+	int salary;
 };
-
-//Derived class
-class child: public parent
-{
+class prog:public Employee{
 public:
+	int bonus=10;
 
-	void setId(int x)
+	void setsalry(int x)
 	{
-		emp_id=x;
+		salary=x;
 	}
-	void ans()
+	int getsalary()
 	{
-		cout<<"Emp_id : "<<emp_id;
+		return salary;
 	}
-
 };
 int main()
-
 {
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r", stdin);
-	freopen("output.txt", "w", stdout);
-	#endif
-   child p;
-   p.setId(10);
-   p.ans();
+  #ifndef ONLINE_JUDGE
+  freopen("input.txt","r", stdin);
+  freopen("output.txt", "w", stdout);
+  #endif
+   prog obj;
+   //obj.bonus(1000);
+   obj.setsalry(100000);
+   cout<<obj.getsalary()<<" "<<obj.bonus<<endl;
 }
