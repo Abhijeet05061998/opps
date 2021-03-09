@@ -28,4 +28,5 @@ int main()
    prog obj;
    obj.setsalry(100000);
    cout<<obj.getsalary()<<endl;
+	cout<<
 	
