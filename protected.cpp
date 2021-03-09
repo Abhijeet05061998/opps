@@ -26,7 +26,6 @@ int main()
   freopen("output.txt", "w", stdout);
   #endif
    prog obj;
-   //obj.bonus(1000);
    obj.setsalry(100000);
    cout<<obj.getsalary()<<" "<<obj.bonus<<endl;
 }
